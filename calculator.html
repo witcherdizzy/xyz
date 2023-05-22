@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Акции - Ceramic Tiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo2.svg" type="image/x-icon">
+
+    <script>
+        let prevScrollpos = window.pageYOffset;
+       
+       window.onscroll = function() {
+         let currentScrollPos = window.pageYOffset;
+         if (prevScrollpos > currentScrollPos) {
+           document.querySelector("header").classList.remove("hide");
+         } else {
+           document.querySelector("header").classList.add("hide");
+         }
+         prevScrollpos = currentScrollPos;
+       }
+    </script>
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html"><img src="logo2.svg" alt="Логотип" class="logo" style="width: 130px; height: 130px;"></a></li>
+                <li><a href="basket/index.php">Каталог</a></li>
+                <li><a href="/sale.html">Акции</a></li>
+                <li><a href="/contacts.html">Наши контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+    
+    
+<footer id="footer">
+    <span class="company-name">Ceramic Tiles</span>
+    <hr>
+    <ul>
+        <h1 style="font-family: Arial, sans-serif; font-size: 16px; font-weight: normal">Все материалы на сайте представлены только для ознакомления.</h1>   
+            <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Телефон: +7 (***) ***-**-**</h1>
+                <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Адрес: г. Воронеж, ул. Московский проспект, 179</h1>
+                    <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Для правообладателей / Сотрудничество: partners@ceramictiles.com</h1>
+                    <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Появилась проблема? - Пиши: support@ceramictiles.com</h1>
+    </ul>
+</footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ceramic tiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo2.svg" type="image/x-icon">
+
+    <script>
+ let prevScrollpos = window.pageYOffset;
+ window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector("header").classList.remove("hide");
+  } else {
+    document.querySelector("header").classList.add("hide");
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</head>
+<div class="wrapper"></div>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html"><img src="logo2.svg" alt="Логотип" class="logo" style="width: 130px; height: 130px;"></a></li>
+                <li><a href="basket/index.php">Каталог</a></li>
+                <li><a href="/sale.html">Акции</a></li>
+                <li><a href="/calculator.html">Калькулятор</a></li>
+                <li><a href="/contacts.html">Наши контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+ <h1 style=" padding: 10px; margin-right: 5px; margin-left: 15px; margin-top:20px; margin-bottom: 5px"> 
+ <img src="smailStar.svg" alt="звездочка" style="width: 50px; height: 50px; margin-top:95px"> Ceramic Tiles</h1>
+ <p> Керамическая плитка является одним из самых популярных материалов для отделки стен и полов в современных интерьерах.</p>
+ <div class="sale-block">
+    <div class="sale-item">
+        <a href="basket/index.php">
+            <img src="ak1.jpg" alt="Акция 1">
+        </a>
+    </div>
+    <div class="sale-item">
+        <a href="basket/index.php">
+            <img src="ak2.jpg" alt="Акция 2">
+            <p></p>
+            <p></p>
+        </a>
+        <p>Керамическая плитка легко моется, она не впитывает грязь и пыль, и долгое время сохраняет свой первоначальный вид.</p>
+        <a href="basket/index.php" class="button">Каталог товаров</a>
+    </div>
+    <div class="sale-item">
+        <a href="basket/index.php">
+            <img src="glavnaya4.jpg" alt="Акция 2">
+        </a>
+    </div>
+</div>
+
+
+
+<main>
+    <h1 style="padding: 5px; margin-right: 5px; margin-left: 15px; margin-top: 15px;">Акции Ceramic Tiles</h1>
+
+    <div class="sale-block">
+        <div class="sale-item">
+            <a href="basket/index.php">
+                <img src="glavnaya1.jpg" alt="Акция 1">
+            </a>
+            <h2>Скидка 10% на коллекцию плитки "Симфония"</h2>
+            <p>Только до конца месяца! Не упустите возможность приобрести качественную керамическую плитку по выгодной цене.</p>
+        </div>
+
+        <div class="sale-item">
+            <a href="basket/index.php">
+                <img src="glavnaya2.jpg" alt="Акция 2">
+            </a>
+            <h2>Подарок за покупку</h2>
+            <p>При покупке плитки "Марсель" на сумму от 30 000 рублей - в подарок набор керамической плитки "Саванна". Акция действует до 31 марта.</p>
+        </div>
+
+        <div class="sale-item">
+            <a href="basket/index.php">
+                <img src="glavnaya3.jpg" alt="Акция 2">
+            </a>
+            <h2>Благодарность</h2>
+            <p>Мы рады, что вы выбрали наш магазин Ceramic Tiles для покупки керамической плитки. Мы ценим ваше доверие и благодарим вас за покупку.</p>
+        </div>
+    </div>
+</main>
+
+    <footer id="footer">
+        <span class="company-name">Ceramic Tiles</span>
+        <hr>
+        <ul>
+            <h1 style="font-family: Arial, sans-serif; font-size: 16px; font-weight: normal">Все материалы на сайте представлены только для ознакомления.</h1>   
+                <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Телефон: +7 (***) ***-**-**</h1>
+                    <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Адрес: г. Воронеж, ул. Московский проспект, 179</h1>
+                        <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Для правообладателей / Сотрудничество: partners@ceramictiles.com</h1>
+                        <h1 style="font-family: Arial, sans-serif; font-size: 16px; margin: 0; font-weight: normal">Появилась проблема? - Пиши: support@ceramictiles.com</h1>
+        </ul>
+    </footer>
+</body>
+</html>
